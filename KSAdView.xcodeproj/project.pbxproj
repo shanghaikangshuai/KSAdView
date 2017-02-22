@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F7074141E5D21EE00680502 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7074131E5D21EE00680502 /* main.m */; };
+		1F7074171E5D21EE00680502 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7074161E5D21EE00680502 /* AppDelegate.m */; };
+		1F70741A1E5D21EE00680502 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7074191E5D21EE00680502 /* ViewController.m */; };
+		1F70741D1E5D21EE00680502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F70741B1E5D21EE00680502 /* Main.storyboard */; };
+		1F70741F1E5D21EF00680502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F70741E1E5D21EF00680502 /* Assets.xcassets */; };
+		1F7074221E5D21EF00680502 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7074201E5D21EF00680502 /* LaunchScreen.storyboard */; };
+		1F70742D1E5D21EF00680502 /* KSAdViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F70742C1E5D21EF00680502 /* KSAdViewTests.m */; };
+		1F7074381E5D21EF00680502 /* KSAdViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7074371E5D21EF00680502 /* KSAdViewUITests.m */; };
+		1F7074481E5D222E00680502 /* KSAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7074471E5D222E00680502 /* KSAdView.m */; };
+		1F70744A1E5D23A200680502 /* p3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F7074491E5D23A200680502 /* p3@2x.png */; };
+		1F70744D1E5D315B00680502 /* ADController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F70744C1E5D315B00680502 /* ADController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F7074291E5D21EF00680502 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F7074071E5D21EE00680502 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F70740E1E5D21EE00680502;
+			remoteInfo = KSAdView;
+		};
+		1F7074341E5D21EF00680502 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F7074071E5D21EE00680502 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F70740E1E5D21EE00680502;
+			remoteInfo = KSAdView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F70740F1E5D21EE00680502 /* KSAdView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSAdView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7074131E5D21EE00680502 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F7074151E5D21EE00680502 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F7074161E5D21EE00680502 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F7074181E5D21EE00680502 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F7074191E5D21EE00680502 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F70741C1E5D21EE00680502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F70741E1E5D21EF00680502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F7074211E5D21EF00680502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F7074231E5D21EF00680502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7074281E5D21EF00680502 /* KSAdViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSAdViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F70742C1E5D21EF00680502 /* KSAdViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSAdViewTests.m; sourceTree = "<group>"; };
+		1F70742E1E5D21EF00680502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7074331E5D21EF00680502 /* KSAdViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSAdViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7074371E5D21EF00680502 /* KSAdViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSAdViewUITests.m; sourceTree = "<group>"; };
+		1F7074391E5D21EF00680502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7074461E5D222E00680502 /* KSAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSAdView.h; path = KSAdView/KSAdView.h; sourceTree = "<group>"; };
+		1F7074471E5D222E00680502 /* KSAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSAdView.m; path = KSAdView/KSAdView.m; sourceTree = "<group>"; };
+		1F7074491E5D23A200680502 /* p3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "p3@2x.png"; sourceTree = "<group>"; };
+		1F70744B1E5D315B00680502 /* ADController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADController.h; sourceTree = "<group>"; };
+		1F70744C1E5D315B00680502 /* ADController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F70740C1E5D21EE00680502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7074251E5D21EF00680502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7074301E5D21EF00680502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F7074061E5D21EE00680502 = {
+			isa = PBXGroup;
+			children = (
+				1F7074111E5D21EE00680502 /* KSAdView */,
+				1F70742B1E5D21EF00680502 /* KSAdViewTests */,
+				1F7074361E5D21EF00680502 /* KSAdViewUITests */,
+				1F7074101E5D21EE00680502 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F7074101E5D21EE00680502 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F70740F1E5D21EE00680502 /* KSAdView.app */,
+				1F7074281E5D21EF00680502 /* KSAdViewTests.xctest */,
+				1F7074331E5D21EF00680502 /* KSAdViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F7074111E5D21EE00680502 /* KSAdView */ = {
+			isa = PBXGroup;
+			children = (
+				1F7074491E5D23A200680502 /* p3@2x.png */,
+				1F7074451E5D221200680502 /* KSAdView */,
+				1F7074151E5D21EE00680502 /* AppDelegate.h */,
+				1F7074161E5D21EE00680502 /* AppDelegate.m */,
+				1F7074181E5D21EE00680502 /* ViewController.h */,
+				1F7074191E5D21EE00680502 /* ViewController.m */,
+				1F70744B1E5D315B00680502 /* ADController.h */,
+				1F70744C1E5D315B00680502 /* ADController.m */,
+				1F70741B1E5D21EE00680502 /* Main.storyboard */,
+				1F70741E1E5D21EF00680502 /* Assets.xcassets */,
+				1F7074201E5D21EF00680502 /* LaunchScreen.storyboard */,
+				1F7074231E5D21EF00680502 /* Info.plist */,
+				1F7074121E5D21EE00680502 /* Supporting Files */,
+			);
+			path = KSAdView;
+			sourceTree = "<group>";
+		};
+		1F7074121E5D21EE00680502 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F7074131E5D21EE00680502 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F70742B1E5D21EF00680502 /* KSAdViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F70742C1E5D21EF00680502 /* KSAdViewTests.m */,
+				1F70742E1E5D21EF00680502 /* Info.plist */,
+			);
+			path = KSAdViewTests;
+			sourceTree = "<group>";
+		};
+		1F7074361E5D21EF00680502 /* KSAdViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F7074371E5D21EF00680502 /* KSAdViewUITests.m */,
+				1F7074391E5D21EF00680502 /* Info.plist */,
+			);
+			path = KSAdViewUITests;
+			sourceTree = "<group>";
+		};
+		1F7074451E5D221200680502 /* KSAdView */ = {
+			isa = PBXGroup;
+			children = (
+				1F7074461E5D222E00680502 /* KSAdView.h */,
+				1F7074471E5D222E00680502 /* KSAdView.m */,
+			);
+			name = KSAdView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F70740E1E5D21EE00680502 /* KSAdView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F70743C1E5D21EF00680502 /* Build configuration list for PBXNativeTarget "KSAdView" */;
+			buildPhases = (
+				1F70740B1E5D21EE00680502 /* Sources */,
+				1F70740C1E5D21EE00680502 /* Frameworks */,
+				1F70740D1E5D21EE00680502 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSAdView;
+			productName = KSAdView;
+			productReference = 1F70740F1E5D21EE00680502 /* KSAdView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F7074271E5D21EF00680502 /* KSAdViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F70743F1E5D21EF00680502 /* Build configuration list for PBXNativeTarget "KSAdViewTests" */;
+			buildPhases = (
+				1F7074241E5D21EF00680502 /* Sources */,
+				1F7074251E5D21EF00680502 /* Frameworks */,
+				1F7074261E5D21EF00680502 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F70742A1E5D21EF00680502 /* PBXTargetDependency */,
+			);
+			name = KSAdViewTests;
+			productName = KSAdViewTests;
+			productReference = 1F7074281E5D21EF00680502 /* KSAdViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F7074321E5D21EF00680502 /* KSAdViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7074421E5D21EF00680502 /* Build configuration list for PBXNativeTarget "KSAdViewUITests" */;
+			buildPhases = (
+				1F70742F1E5D21EF00680502 /* Sources */,
+				1F7074301E5D21EF00680502 /* Frameworks */,
+				1F7074311E5D21EF00680502 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F7074351E5D21EF00680502 /* PBXTargetDependency */,
+			);
+			name = KSAdViewUITests;
+			productName = KSAdViewUITests;
+			productReference = 1F7074331E5D21EF00680502 /* KSAdViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F7074071E5D21EE00680502 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Bujiaxinxi;
+				TargetAttributes = {
+					1F70740E1E5D21EE00680502 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NGYJLGPAAV;
+						ProvisioningStyle = Automatic;
+					};
+					1F7074271E5D21EF00680502 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NGYJLGPAAV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F70740E1E5D21EE00680502;
+					};
+					1F7074321E5D21EF00680502 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NGYJLGPAAV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F70740E1E5D21EE00680502;
+					};
+				};
+			};
+			buildConfigurationList = 1F70740A1E5D21EE00680502 /* Build configuration list for PBXProject "KSAdView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F7074061E5D21EE00680502;
+			productRefGroup = 1F7074101E5D21EE00680502 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F70740E1E5D21EE00680502 /* KSAdView */,
+				1F7074271E5D21EF00680502 /* KSAdViewTests */,
+				1F7074321E5D21EF00680502 /* KSAdViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F70740D1E5D21EE00680502 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7074221E5D21EF00680502 /* LaunchScreen.storyboard in Resources */,
+				1F70744A1E5D23A200680502 /* p3@2x.png in Resources */,
+				1F70741F1E5D21EF00680502 /* Assets.xcassets in Resources */,
+				1F70741D1E5D21EE00680502 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7074261E5D21EF00680502 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7074311E5D21EF00680502 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F70740B1E5D21EE00680502 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F70741A1E5D21EE00680502 /* ViewController.m in Sources */,
+				1F7074171E5D21EE00680502 /* AppDelegate.m in Sources */,
+				1F7074141E5D21EE00680502 /* main.m in Sources */,
+				1F7074481E5D222E00680502 /* KSAdView.m in Sources */,
+				1F70744D1E5D315B00680502 /* ADController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7074241E5D21EF00680502 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F70742D1E5D21EF00680502 /* KSAdViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F70742F1E5D21EF00680502 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7074381E5D21EF00680502 /* KSAdViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F70742A1E5D21EF00680502 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F70740E1E5D21EE00680502 /* KSAdView */;
+			targetProxy = 1F7074291E5D21EF00680502 /* PBXContainerItemProxy */;
+		};
+		1F7074351E5D21EF00680502 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F70740E1E5D21EE00680502 /* KSAdView */;
+			targetProxy = 1F7074341E5D21EF00680502 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F70741B1E5D21EE00680502 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F70741C1E5D21EE00680502 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F7074201E5D21EF00680502 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F7074211E5D21EF00680502 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F70743A1E5D21EF00680502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F70743B1E5D21EF00680502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F70743D1E5D21EF00680502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NGYJLGPAAV;
+				INFOPLIST_FILE = KSAdView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bujiaxinxi.KSAdView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F70743E1E5D21EF00680502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NGYJLGPAAV;
+				INFOPLIST_FILE = KSAdView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bujiaxinxi.KSAdView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F7074401E5D21EF00680502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NGYJLGPAAV;
+				INFOPLIST_FILE = KSAdViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bujiaxinxi.KSAdViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSAdView.app/KSAdView";
+			};
+			name = Debug;
+		};
+		1F7074411E5D21EF00680502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NGYJLGPAAV;
+				INFOPLIST_FILE = KSAdViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bujiaxinxi.KSAdViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSAdView.app/KSAdView";
+			};
+			name = Release;
+		};
+		1F7074431E5D21EF00680502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NGYJLGPAAV;
+				INFOPLIST_FILE = KSAdViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bujiaxinxi.KSAdViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KSAdView;
+			};
+			name = Debug;
+		};
+		1F7074441E5D21EF00680502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NGYJLGPAAV;
+				INFOPLIST_FILE = KSAdViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bujiaxinxi.KSAdViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KSAdView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F70740A1E5D21EE00680502 /* Build configuration list for PBXProject "KSAdView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F70743A1E5D21EF00680502 /* Debug */,
+				1F70743B1E5D21EF00680502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F70743C1E5D21EF00680502 /* Build configuration list for PBXNativeTarget "KSAdView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F70743D1E5D21EF00680502 /* Debug */,
+				1F70743E1E5D21EF00680502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F70743F1E5D21EF00680502 /* Build configuration list for PBXNativeTarget "KSAdViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7074401E5D21EF00680502 /* Debug */,
+				1F7074411E5D21EF00680502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F7074421E5D21EF00680502 /* Build configuration list for PBXNativeTarget "KSAdViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7074431E5D21EF00680502 /* Debug */,
+				1F7074441E5D21EF00680502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F7074071E5D21EE00680502 /* Project object */;
+}
